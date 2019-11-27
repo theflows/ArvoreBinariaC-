@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1574207114 source:c:\users\lab3\desktop\arveres\main.cpp
+	<iostream>
+	"ARVORE.h"
+
+1574207762 c:\users\lab3\desktop\arveres\arvore.h
+	<iostream>
+
+1574872834 source:c:\users\gabri\desktop\fatec\chiara\arveres\main.cpp
+	<iostream>
+	"ARVORE.h"
+
+1574872857 c:\users\gabri\desktop\fatec\chiara\arveres\arvore.h
+	<iostream>
+

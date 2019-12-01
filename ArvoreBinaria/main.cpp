@@ -13,6 +13,8 @@ int main()
         cout<<"2- Remover"<<endl;
         cout<<"3- exibir a fila"<<endl;
         cout<<"4- Buscar"<<endl;
+        cout<<"5- Mostrar numero Maior"<<endl;
+        cout<<"6- Mostrar numero Menor"<<endl;
         cout<<"9- fim"<<endl;
         cout<<"Selecione:";
         cin>>opc;

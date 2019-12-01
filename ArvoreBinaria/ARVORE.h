@@ -97,18 +97,27 @@ struct Bst{
     Tipo noMaior(Node<Tipo>*&t)
     {
         Node<Tipo>*temp = NULL;
-
         temp = t;
-
         if(temp->pDir == NULL)
         {
             t = t->pEsq;
-            return temp;
+            return temp->info;
         }
         else
             return noMaior(t->pDir);
     }
-
+    Tipo noMenor(Node<Tipo>*&t)
+    {
+        Node<Tipo>*temp = NULL;
+        temp = t;
+        if(temp->pEsq == NULL)
+        {
+            t = t->pEsq;
+            return temp->info;
+        }
+        else
+            return noMenor(t->pEsq);
+    }
     bool busca (Node<Tipo>*&t, int valor)
     {   bool v=true;
         while (t != NULL)

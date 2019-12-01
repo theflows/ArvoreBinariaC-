@@ -52,10 +52,6 @@ int main()
             }
             break;
         case 3:
-            if(t.listavazia()){
-                cout<<"Lista vazia..."<<endl;
-            }
-            else{
                 cout<<"\nPre ordem"<< endl;
                 t.preOrdem(t.pRaiz);
 
@@ -64,9 +60,13 @@ int main()
 
                 cout<<"\nPos Ordem" <<endl;
                 t.posOrdem(t.pRaiz);
-                }
             cout<<"\n-------------"<<endl;
-
+            break;
+            case 5:
+            cout<< "O maior valor: "<<t.noMaior(t.pRaiz)<<endl;
+            break;
+            case 6:
+            cout<< "O menor valor: "<<t.noMenor(t.pRaiz)<<endl;
             break;
         case 9:
             cout<<"fim"<<endl;
@@ -76,8 +76,5 @@ int main()
             break;
         }
     }while (opc!=9);
-
-
     return 0;
-
 }
